@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #0d1b2a, #000814);
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+
+#clock {
+     font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #8fdcff;
+    letter-spacing: 8px;
+    text-shadow:
+        0 0 8px #42bfff,
+        0 0 20px #42bfff,
+        0 0 40px #42bfff;
+}
+#date{
+    font-size:18px;
+    color:#d6d6d6;
+    margin-top:15px;
+    letter-spacing:3px;
+}
+
+.line {
+    width: 220px;
+    height: 2px;
+    background: rgba(255, 255, 255, .2);
+    margin: 18px auto;
+}
+
+.text {
+    color: rgba(255, 255, 255, .4);
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+#greeting{
+    font-family: "Great Vibes", cursive;
+    font-size: 55px;
+    color: #ffd369;
+    margin-bottom: 20px;
+    text-shadow:
+        0 0 10px #ffbf00,
+        0 0 25px #ffbf00;
+}
+#quote {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
