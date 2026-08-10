@@ -25,7 +25,7 @@ function updateClock() {
         greeting.innerText = "Good Morning ☀️";
     } else if (hours >= 12 && hours < 14) {
         greeting.innerText = "Good Afternoon 🌞";
-    } else if (hours >= 14 && hours < 18) {
+    } else if (hours >= 14 && hours < 19) {
         greeting.innerText = "Good Evening 🌇";
     } else {
         greeting.innerText = "Good Night 🌙";
